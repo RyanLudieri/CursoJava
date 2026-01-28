@@ -14,11 +14,8 @@ public class DataTeste {
         data2.mes = 2;
         data2.ano = 2004;
 
-        String dataFormatada1 = (data1.dia + "/" + data1.mes + "/" + data1.ano);
-        String dataFormatada2 = (data2.dia + "/" + data2.mes + "/" + data2.ano);
-
-        System.out.println(dataFormatada1);
-        System.out.println(dataFormatada2);
+        System.out.println(data1.obterDataFormatada());
+        System.out.println(data2.obterDataFormatada());
 
     }
 }
