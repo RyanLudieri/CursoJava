@@ -1,7 +1,5 @@
 package com.example.classe;
 
-import java.util.Arrays;
-
 public class DataTeste {
     public static void main(String[] args) {
         Data data1 =  new Data(2,7,2003);
