@@ -6,7 +6,7 @@ public class DesafioArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Infome a quantidade de notas: ");
+        System.out.println("Informe a quantidade de notas: ");
         double[] notas = new double[scanner.nextInt()];
 
         for (int i = 0; i < notas.length; i++){
