@@ -13,6 +13,7 @@ public class LIsta {
         lista.add(new Usuario("Ryan"));
         lista.add(new Usuario("Carlos"));
         lista.add(new Usuario("Manu"));
+        lista.add(new Usuario("Manu"));
         lista.add(new Usuario("Bia"));
 
         System.out.println(lista.get(3)); // acessar pelo indice
