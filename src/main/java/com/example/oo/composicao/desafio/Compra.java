@@ -10,8 +10,8 @@ public class Compra {
     Double obterValorTotal(){
         double total = 0;
 
-        for(Item itens: this.itens){
-            total += itens.qtd * itens.produto.preco;
+        for(Item item: this.itens){
+            total += item.qtd * item.produto.preco;
         }
         return total;
     }
